@@ -4,6 +4,7 @@
     discord
     kitty
     xarchiver
+    qbittorrent
   ];
 
   programs = {
