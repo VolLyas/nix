@@ -1,16 +1,9 @@
 { pkgs, config, ... }:
 {
-  home.packages = with pkgs; [
+  environment.systemPackages = with pkgs; [
     pavucontrol
     playerctl
     nitrogen
+    obs-studio
   ];
-
-  programs = {
-    obs-studio.enable = true;
-  };
-
-  services = {
-    playerctld.enable = true;
-  };
 }

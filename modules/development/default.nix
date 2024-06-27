@@ -1,10 +1,7 @@
 { pkgs, config, ... }:
-{
-  imports = [
-    ./git.nix
-  ];
-  
-  environment.packages = with pkgs; [
+{ 
+  environment.systemPackages = with pkgs; [
     vscode
+    git
   ];
 }

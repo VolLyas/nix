@@ -10,6 +10,7 @@
     ./fonts
     ./i3
     ./kitty
+    ./development
   ];
 
   home.file.".icons/default".source = "${pkgs.vanilla-dmz}/share/icons/Vanilla-DMZ";
