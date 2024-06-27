@@ -6,6 +6,10 @@
       ./hardware-configuration.nix
       ../../modules/i3
       ../../modules/gaming
+      ../../modules/programs
+      ../../modules/development
+      ../../modules/media
+      ../../modules/shell
       inputs.home-manager.nixosModules.default
     ];
 

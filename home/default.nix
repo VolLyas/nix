@@ -8,11 +8,8 @@
 
   imports = [
     ./fonts
-    ./programs
-    ./development
-    ./media
     ./i3
-    ./shell
+    ./kitty
   ];
 
   home.file.".icons/default".source = "${pkgs.vanilla-dmz}/share/icons/Vanilla-DMZ";

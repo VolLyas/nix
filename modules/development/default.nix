@@ -4,7 +4,7 @@
     ./git.nix
   ];
   
-  home.packages = with pkgs; [
+  environment.packages = with pkgs; [
     vscode
   ];
 }
