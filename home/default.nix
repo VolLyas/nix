@@ -11,6 +11,7 @@
     ./i3
     ./kitty
     ./development
+    ./wm-x11-apps
   ];
 
   home.file.".icons/default".source = "${pkgs.vanilla-dmz}/share/icons/Vanilla-DMZ";

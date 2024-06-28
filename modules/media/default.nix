@@ -5,5 +5,6 @@
     playerctl
     nitrogen
     obs-studio
+    loupe
   ];
 }
